@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'ui/splash.dart';
 import 'ui/scaffold.dart';
-import 'models/chatlayout.dart';
+import 'ui/chat.dart';
+import 'ui/user.dart';
+//import 'models/chatlayout.dart';
 
 void main() => runApp(Homescreen());
 

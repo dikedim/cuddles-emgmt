@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import '../models/helper.dart';
-//import 'package:emgmt_cuddles/models/chatlayout.dart';
-import '../models/chatlayout.dart';
-import '../widgets/sidebar.dart';
 
-class ChatPage extends StatefulWidget {
+class Communication extends StatefulWidget {
+  Communication({Key key}) : super(key: key);
+
   @override
-  _ChatPageState createState() => _ChatPageState();
+  _CommunicationState createState() => _CommunicationState();
 }
 
-class _ChatPageState extends State<ChatPage> {
+class _CommunicationState extends State<Communication> {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -17,7 +16,7 @@ class _ChatPageState extends State<ChatPage> {
         endDrawer: Drawer(),
         appBar: AppBar(
           backgroundColor: Color(webColor('#000000')),
-          title: Text("Chat",
+          title: Text("Communication Section",
           style: TextStyle(
             color: Colors.white
           ),),
@@ -32,7 +31,7 @@ class _ChatPageState extends State<ChatPage> {
         ),
         body: Container(
           decoration: new BoxDecoration(
-            color: Color(webColor('#898A83')),
+            color: Color(webColor('#F8CB15')),
           ),
           child: ListView(
             children: <Widget>[
@@ -45,7 +44,6 @@ class _ChatPageState extends State<ChatPage> {
           ),
         ),
       ),
-      
     );
   }
 }
