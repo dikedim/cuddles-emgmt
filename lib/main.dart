@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'ui/splash.dart';
 import 'ui/scaffold.dart';
-import 'ui/chat.dart';
-import 'ui/user.dart';
+//import 'ui/user.dart';
+import 'package:time_machine/time_machine.dart';
 //import 'models/chatlayout.dart';
 
-void main() => runApp(Homescreen());
+//void main() => runApp(Homescreen());
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await TimeMachine.initialize({'rootBundle': rootBundle});
+  
+  runApp(Homescreen());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.

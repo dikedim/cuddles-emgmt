@@ -1,14 +1,14 @@
 import 'package:emgmt_cuddles/ui/loginpage.dart';
+import 'package:emgmt_cuddles/ui/chat.dart';
 import 'package:flutter/material.dart';
-import '../models/helper.dart';  //TODO: Only use for cusotom appbar color
-//import '../ui/about.dart';
-import '../widgets/sidebar.dart';
-import '../ui/chat.dart';
-import '../ui/reportcard.dart';
-import '../ui/communication.dart';
-import '../ui/attendance.dart';
-import '../ui/timetable.dart';
-import '../ui/user.dart';
+import 'package:emgmt_cuddles/models/helper.dart';  //TODO: Only use for cusotom appbar color
+//import 'package:emgmt_cuddles/ui/about.dart';
+import 'package:emgmt_cuddles/widgets/sidebar.dart';
+import 'package:emgmt_cuddles/ui/reportcard.dart';
+import 'package:emgmt_cuddles/ui/communication.dart';
+import 'package:emgmt_cuddles/ui/attendance.dart';
+import 'package:emgmt_cuddles/ui/timetable.dart';
+//import 'package:emgmt_cuddles/ui/user.dart';
 
 
 class Homescreen extends StatelessWidget {
@@ -26,7 +26,7 @@ class Homescreen extends StatelessWidget {
         //)
       ),
       darkTheme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         primarySwatch: Colors.orange,
       ),
       home: Scaffold(
@@ -68,6 +68,7 @@ class Homescreen extends StatelessWidget {
                             height:85.0,
                             child: Builder(
                               builder: (context) => RaisedButton(
+                                elevation:5.0,
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
                                     builder: (BuildContext context) => new LoginPage())
@@ -80,7 +81,7 @@ class Homescreen extends StatelessWidget {
                                   "Attendance", 
                                   style: TextStyle(
                                     fontSize: 20,
-                                    fontFamily: 'Montserratalternates_mid')),
+                                    fontFamily: 'Montserratalternates')),
                                 textColor: Colors.white,
                                 splashColor: Colors.grey,
                               ),
@@ -99,9 +100,10 @@ class Homescreen extends StatelessWidget {
                         height:80.0,
                         child: Builder(
                           builder: (context) => RaisedButton(
+                            elevation:5.0,
                             onPressed: (){
                               Navigator.push(context, MaterialPageRoute(
-                                builder: (BuildContext context) => new TimeTable())
+                                builder: (BuildContext context) => new ClassSchedule())
                               );
                             },
                             color: Color(webColor('#0D39E9')),
@@ -122,6 +124,7 @@ class Homescreen extends StatelessWidget {
                         height:80.0,
                         child: Builder(
                           builder: (context) => RaisedButton(
+                            elevation:5.0,
                             onPressed: (){
                               Navigator.push(context, MaterialPageRoute(
                                 builder: (BuildContext context) => new ReportCard())
@@ -133,7 +136,7 @@ class Homescreen extends StatelessWidget {
                           child: Text(
                             "Report Card", 
                             style: TextStyle(
-                            fontFamily: 'Montserrat',
+                            fontFamily: 'Montserratalternates',
                             fontSize: 20)),
                           textColor: Colors.white,
                           splashColor: Colors.grey,
@@ -153,6 +156,7 @@ class Homescreen extends StatelessWidget {
                           height:80.0,
                           child: Builder(
                             builder: (context) => RaisedButton(
+                              elevation:5.0,
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
                                   builder: (BuildContext context) => new Communication())
@@ -177,6 +181,7 @@ class Homescreen extends StatelessWidget {
                           height:80.0,
                           child: Builder(
                             builder: (context) => RaisedButton(
+                              elevation:5.0,
                               onPressed: (){
                                 //Navigator.of(context).pop();
                                 Navigator.push(context, MaterialPageRoute(
@@ -208,6 +213,7 @@ class Homescreen extends StatelessWidget {
                         width: 90.0,
                         height:80.0,
                         child: RaisedButton(
+                          elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
                           color: Color(webColor('#11BAF9')),
@@ -229,6 +235,7 @@ class Homescreen extends StatelessWidget {
                         width: 90.0,
                         height:80.0,
                         child: RaisedButton(
+                          elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
                           color: Color(webColor('#000000')),
@@ -250,6 +257,7 @@ class Homescreen extends StatelessWidget {
                         width: 90.0,
                         height:80.0,
                         child: RaisedButton(
+                          elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
                           color: Color(webColor('#11F947')),
@@ -271,6 +279,7 @@ class Homescreen extends StatelessWidget {
                         width: 90.0,
                         height:80.0,
                         child: RaisedButton(
+                          elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
                           color: Color(webColor('#11F9E1')),
