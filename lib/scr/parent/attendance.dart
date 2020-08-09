@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/helper.dart';
+import 'package:emgmt_cuddles/models/helper.dart';
+//import 'package:emgmt_cuddles/models/timetable.dart';
 
 class Attendance extends StatelessWidget {
   @override

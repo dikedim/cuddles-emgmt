@@ -38,6 +38,15 @@ class SidebarNav extends StatelessWidget {
               ),
               Divider(),
               ListTile(
+                leading: Icon(Icons.brightness_3),
+                title: Text('Dark mode'),
+                onTap: () {
+                  //TODO themeMode: ThemeMode.dark;
+                },
+              ),
+              //Spacer(),
+              Divider(),
+              ListTile(
                 leading: Icon(Icons.settings_applications,
                 color: Colors.grey,
                 size: 24.0,),

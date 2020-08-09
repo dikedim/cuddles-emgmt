@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/helper.dart';
 import '../models/chatlayout.dart';
 //import 'package:emgmt_cuddles/models/chatlayout.dart';
-import '../models/chatlayout.dart';
+//import '../models/chatlayout.dart';
 import '../widgets/sidebar.dart';
 
 class ChatPage extends StatefulWidget {

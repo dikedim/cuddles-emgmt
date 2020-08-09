@@ -1,6 +1,7 @@
-import '../models/helper.dart';
+import 'package:emgmt_cuddles/models/helper.dart';
 import 'package:flutter/material.dart';
 import 'chat.dart';
+import 'package:emgmt_cuddles/scr/parent/parentDash.dart';
 
 class SelectUser extends StatefulWidget {
   SelectUser({Key key}) : super(key: key);
@@ -101,7 +102,7 @@ class _SelectUserState extends State<SelectUser> {
                             builder: (context) => RaisedButton(
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
-                                  builder: (BuildContext context) => new ChatPage())
+                                  builder: (BuildContext context) => new ParentDashboard())
                                 );
                               },
                               color: Color(webColor('#2D0B7F')),

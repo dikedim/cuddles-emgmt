@@ -115,6 +115,27 @@ class _LoginPageState extends State<LoginPage> {
       ),
       //onTap: (){Navigator.pushNamed(context, '/lib/ui/loginpage.dart')}
     );
+    //TODO Add social login options
+    // final socialOpt = Container(
+    //   //margin: ,
+    //   child: Row(
+    //     children: <Widget>[
+    //       newDivider(),
+    //       Padding(padding: const EdgeInsets.symmetric(horizontal: 10.0),
+    //       child: Text(
+    //         "OR",
+    //       ),
+    //       ),
+    //       newDivider(),
+    //     ],
+    //   ),
+    //   Expanded newDivider(){
+    //     return Expanded (child: Divider(
+    //       color: Color(0xFFD9D9D9),
+    //       height: 1.5,),
+    //     ),
+    //   },
+    // );
     return SafeArea(
       left: true,
       right: true,
@@ -131,7 +152,8 @@ class _LoginPageState extends State<LoginPage> {
               userPasswd,
               loginButton,
               forgotPasswd,
-              signUp
+              signUp,
+              //socialOpt
             ],
           ),
         )

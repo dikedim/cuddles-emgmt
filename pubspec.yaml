@@ -18,6 +18,9 @@ environment:
 
 dependencies:
   timetable: ^0.2.2
+  table_calendar: ^2.2.3
+  simple_animations: ^2.2.1
+  shared_preferences: ^0.5.8
   flutter:
     sdk: flutter
 
