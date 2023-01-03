@@ -50,7 +50,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
       _selectedDay.add(Duration(days: 11)): ['Event A11', 'Event B11'],
       _selectedDay.add(Duration(days: 17)): ['Event A12', 'Event B12', 'Event C12', 'Event D12'],
       _selectedDay.add(Duration(days: 22)): ['Event A13', 'Event B13'],
-      _selectedDay.add(Duration(days: 26)): ['Event A14', 'Event B14', 'Event C14'],
+      _selectedDay.add(Duration(days: 26)): ['Long Vacation'],
     };
 
     _selectedEvents = _events[_selectedDay] ?? [];

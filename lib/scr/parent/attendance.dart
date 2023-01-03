@@ -12,6 +12,7 @@ class Attendance extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Color(webColor('#000000')),
           centerTitle: true,
+          leading: Icon(Icons.account_circle),
           title: Text("Attendance",
           style: TextStyle(
             color: Colors.white),

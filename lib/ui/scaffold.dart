@@ -10,6 +10,7 @@ import 'package:emgmt_cuddles/scr/parent/events.dart';
 import 'package:emgmt_cuddles/scr/parent/attendance.dart';
 import 'package:emgmt_cuddles/scr/parent/meals.dart';
 import 'package:emgmt_cuddles/ui/studtimetable.dart';
+import 'package:emgmt_cuddles/ui/user.dart';
 import 'package:emgmt_cuddles/ui/holiday.dart';
 import 'package:emgmt_cuddles/scr/student/studTimetable.dart';
 //import 'signup.dart';
@@ -422,7 +423,11 @@ class Homescreen extends StatelessWidget {
                         child: Builder(
                           builder: (context) => RaisedButton(
                             elevation:5.0,
-                            onPressed: (){},
+                            onPressed: (){
+                              Navigator.push(context, MaterialPageRoute(
+                                builder: (BuildContext context) => new SelectUser())
+                              );
+                            },
                             //color: Colors.yellow,
                             color: Colors.white,
                             shape: RoundedRectangleBorder(

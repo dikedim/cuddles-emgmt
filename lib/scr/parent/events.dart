@@ -31,7 +31,7 @@ class _EventsState extends State<Events> {
         ),
         body: Container(
           decoration: new BoxDecoration(
-            color: Color(webColor('#F8CB15')),
+            color: Color(webColor('#11F9E1')),
           ),
           child: ListView(
             children: <Widget>[

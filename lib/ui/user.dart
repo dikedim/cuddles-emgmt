@@ -1,10 +1,12 @@
 import 'package:emgmt_cuddles/models/helper.dart';
 import 'package:flutter/material.dart';
-import 'chat.dart';
 import 'package:emgmt_cuddles/scr/parent/parentDash.dart';
+import 'package:emgmt_cuddles/scr/educator/eduDash.dart';
+import 'package:emgmt_cuddles/scr/student/studDash.dart';
+import 'package:emgmt_cuddles/scr/admin/adminDash.dart';
 
 class SelectUser extends StatefulWidget {
-  SelectUser({Key key}) : super(key: key);
+  //SelectUser({Key key}) : super(key: key);
 
   @override
   _SelectUserState createState() => _SelectUserState();
@@ -18,7 +20,7 @@ class _SelectUserState extends State<SelectUser> {
         body: SafeArea(
           child: ListView(
             children: <Widget>[
-              Expanded(child: Column(
+              Container(child: Column(
                 children: <Widget>[
                   Container(
                     padding: EdgeInsets.only(top: 40),
@@ -26,7 +28,7 @@ class _SelectUserState extends State<SelectUser> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 40,
-                      fontFamily: 'MontserratAlternates',
+                      fontFamily: 'Montserrat',
                       fontStyle: FontStyle.normal,
                       fontWeight: FontWeight.bold,
                     ),),
@@ -45,7 +47,7 @@ class _SelectUserState extends State<SelectUser> {
                               builder: (context) => RaisedButton(
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
-                                    builder: (BuildContext context) => new ChatPage())
+                                    builder: (BuildContext context) => new StudentDashboard())
                                   );
                                 },
                                 color: Color(webColor('#2D0B7F')),
@@ -70,7 +72,7 @@ class _SelectUserState extends State<SelectUser> {
                               builder: (context) => RaisedButton(
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
-                                    builder: (BuildContext context) => new ChatPage())
+                                    builder: (BuildContext context) => new EducatorDashboard())
                                   );
                                 },
                               color: Color(webColor('#2D0B7F')),
@@ -111,7 +113,7 @@ class _SelectUserState extends State<SelectUser> {
                               child: Text(
                                 "Parent", 
                                 style: TextStyle(
-                                fontFamily: 'MontserratAlternates',
+                                fontFamily: 'Montserrat',
                                 fontStyle: FontStyle.italic,
                                 fontWeight: FontWeight.w600,
                                 fontSize: 25)),
@@ -127,7 +129,7 @@ class _SelectUserState extends State<SelectUser> {
                             builder: (context) => RaisedButton(
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
-                                  builder: (BuildContext context) => new ChatPage())
+                                  builder: (BuildContext context) => new AdminDashboard())
                                 );
                               },
                             color: Color(webColor('#2D0B7F')),

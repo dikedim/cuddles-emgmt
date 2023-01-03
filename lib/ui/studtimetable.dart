@@ -18,6 +18,7 @@ class ClassSchedule extends StatefulWidget {
 final EventProvider<BasicEvent> classScheduleProvider = EventProvider.list(_events);
 final _events = <BasicEvent>[
   _ClassEvent(0, 0, LocalTime(10, 0, 0), LocalTime(15, 0, 0)),
+  _ClassEvent(0, 1, LocalTime(08, 0, 0), LocalTime(10, 0, 0)),
 ];
 
 class _ClassEvent extends BasicEvent{

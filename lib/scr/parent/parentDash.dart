@@ -37,8 +37,8 @@ class ParentDashboard extends StatelessWidget {
             centerTitle: true,
             title: Container(
               padding: EdgeInsets.only(top: 30),
-              child: Text('Dashboard', style: TextStyle(
-                fontSize: 40.0,
+              child: Text('Parent Dashboard', style: TextStyle(
+                fontSize: 32.0,
                 fontFamily: 'Roboto',
                 fontWeight: FontWeight.bold)),
             ),
@@ -47,7 +47,7 @@ class ParentDashboard extends StatelessWidget {
         ),
         body: ListView(
           children: <Widget>[
-            Expanded(
+            Container(
               child: Padding(
                 padding: const EdgeInsets.all(2.0),
                 child: Column(

@@ -131,7 +131,195 @@ class _ReportCardState extends State<ReportCard> {
                             ),
                           ),
                         ]
-            )
+            ),
+            Divider(),
+            Text("First Term", style: TextStyle(
+                  fontSize: 32.0,
+                  fontFamily: 'Roboto',
+                  fontWeight: FontWeight.bold)
+                ),
+            Table(
+              border: TableBorder.all(width: 0.5, 
+              color: Colors.black,
+              ),
+              children:[
+                TableRow(
+                  children: [
+                    Text(""),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    20%"),
+                    Text("    50%")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Subject"),
+                    Text("  1st Test"),
+                    Text("  2nd Test"),
+                    Text("  3rd Test"),
+                    Text("  Midterm"),
+                    Text("    Exam")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Math"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+                  TableRow(
+                  children: [
+                    Text("  English"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+              ]
+            ),
+            Divider(),
+            Text("Second Term", style: TextStyle(
+                  fontSize: 32.0,
+                  fontFamily: 'Roboto',
+                  fontWeight: FontWeight.bold)
+            ),
+            Table(
+              border: TableBorder.all(width: 0.5, 
+              color: Colors.black,
+              ),
+              children:[
+                TableRow(
+                  children: [
+                    Text(""),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    20%"),
+                    Text("    50%")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Subject"),
+                    Text("  1st Test"),
+                    Text("  2nd Test"),
+                    Text("  3rd Test"),
+                    Text("  Midterm"),
+                    Text("    Exam")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Math"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+                  TableRow(
+                  children: [
+                    Text("  English"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+              ]
+            ),
+            Divider(),
+            Text("Third Term", style: TextStyle(
+                  fontSize: 32.0,
+                  fontFamily: 'Roboto',
+                  fontWeight: FontWeight.bold)
+            ),
+            Table(
+              border: TableBorder.all(width: 0.5, 
+              color: Colors.black,
+              ),
+              children:[
+                TableRow(
+                  children: [
+                    Text(""),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    10%"),
+                    Text("    20%"),
+                    Text("    50%")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Subject"),
+                    Text("  1st Test"),
+                    Text("  2nd Test"),
+                    Text("  3rd Test"),
+                    Text("  Midterm"),
+                    Text("    Exam")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Math"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+                  TableRow(
+                  children: [
+                    Text("  English"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+              ]
+            ),
+            Divider(),
+            Text("Cummulative", style: TextStyle(
+                  fontSize: 32.0,
+                  fontFamily: 'Roboto',
+                  fontWeight: FontWeight.bold)
+            ),
+            Table(
+              border: TableBorder.all(width: 0.5, 
+              color: Colors.black,
+              ),
+              children:[
+                TableRow(
+                  children: [
+                    Text(" Subject /Term"),
+                    Text("  First Term"),
+                    Text("  Second Term"),
+                    Text("  Third Term"),
+                    Text("  Exam"),
+                    Text("  Total")
+                  ] ),
+                TableRow(
+                  children: [
+                    Text("  Math"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+                  TableRow(
+                  children: [
+                    Text("  English"),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text("")
+                  ] ),
+              ]
+            ),
+
             /*Padding(
               padding: const EdgeInsets.all(8.0),
             child: Container(

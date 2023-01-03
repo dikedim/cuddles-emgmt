@@ -58,18 +58,19 @@ class _TimeTableState extends State<TimeTable>
               ),
             ],
           ),
-          title: FadeIn(
+          /*title: FadeIn(
             delay: .3,
             child: Text(
               classname + ' Timetable',
               style: TextStyle(fontFamily: 'Roboto'),
             ),
-          ),
+          ),*/
           centerTitle: true,
         ),
-        body: Container(
+        /*body: Container(
+          height: 200,
           child: TabBarView(
-            children: [
+            children: <Widget>[
               Schedule(timetable: timeTable[0], day: 0),
               Schedule(timetable: timeTable[1], day: 1),
               Schedule(timetable: timeTable[2], day: 2),
@@ -77,7 +78,7 @@ class _TimeTableState extends State<TimeTable>
               Schedule(timetable: timeTable[4], day: 4),
             ],
           ),
-        ),
+        ),*/
       ),
     );
   }

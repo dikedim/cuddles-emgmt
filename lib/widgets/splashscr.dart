@@ -14,7 +14,7 @@ List splashpages = [
   {
     "header": "Announcements",
     "description":
-        "All administrative imformation at your fingertips including upcoming events, sporting activities and holidays",
+        "All administrative imformation at your fingertips including upcoming events including timetables, sporting activities and holidays",
     "image": "assets/images/logo.png"
   },
   {
