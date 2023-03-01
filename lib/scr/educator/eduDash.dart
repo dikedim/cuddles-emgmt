@@ -59,7 +59,7 @@ class EducatorDashboard extends StatelessWidget {
                             width: 120.0,
                             height:85.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 elevation:5.0,
                                 onPressed: (){
                                   //Navigator.push(context, MaterialPageRoute(
@@ -83,7 +83,7 @@ class EducatorDashboard extends StatelessWidget {
                             width: 250.0,
                             height:85.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 elevation:5.0,
                                 onPressed: (){
                                   //Navigator.push(context, MaterialPageRoute(
@@ -115,7 +115,7 @@ class EducatorDashboard extends StatelessWidget {
                         width: 186.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){
                               /*Navigator.push(context, MaterialPageRoute(
@@ -139,7 +139,7 @@ class EducatorDashboard extends StatelessWidget {
                         width: 186.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){
                               /*Navigator.push(context, MaterialPageRoute(
@@ -171,7 +171,7 @@ class EducatorDashboard extends StatelessWidget {
                           width: 250.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){
                                 /*Navigator.push(context, MaterialPageRoute(
@@ -196,7 +196,7 @@ class EducatorDashboard extends StatelessWidget {
                           width: 122.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){
                                 //Navigator.of(context).pop();
@@ -228,7 +228,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                         width: 90.0,
                         height:80.0,
-                        child: RaisedButton(
+                        child: MaterialButton(
                           elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
@@ -250,7 +250,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                         width: 90.0,
                         height:80.0,
-                        child: RaisedButton(
+                        child: MaterialButton(
                           elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
@@ -272,7 +272,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                         width: 90.0,
                         height:80.0,
-                        child: RaisedButton(
+                        child: MaterialButton(
                           elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
@@ -294,7 +294,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                         width: 90.0,
                         height:80.0,
-                        child: RaisedButton(
+                        child: MaterialButton(
                           elevation:5.0,
                           onPressed: (){},
                         //color: Colors.yellow,
@@ -322,7 +322,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                       width: 115.0,
                       height:80.0,
-                      child: RaisedButton(
+                      child: MaterialButton(
                         onPressed: (){},
                         //color: Colors.yellow,
                         color: Color(webColor('#2D0B7F')),
@@ -344,7 +344,7 @@ class EducatorDashboard extends StatelessWidget {
                     Container(
                       width: 142.0,
                       height:80.0,
-                      child: RaisedButton(
+                      child: MaterialButton(
                         onPressed: (){},
                         //color: Colors.yellow,
                         color: Color(webColor('#850E82')),
@@ -366,7 +366,7 @@ class EducatorDashboard extends StatelessWidget {
                     Container(
                       width: 110.0,
                       height:80.0,
-                      child: RaisedButton(
+                      child: MaterialButton(
                         onPressed: (){},
                         //color: Colors.yellow,
                         color: Color(webColor('#E41286')),
@@ -394,7 +394,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                       width: 105.0,
                       height:80.0,
-                      child: RaisedButton(
+                      child: MaterialButton(
                         onPressed: (){},
                         //color: Colors.yellow,
                         color: Colors.white,
@@ -417,7 +417,7 @@ class EducatorDashboard extends StatelessWidget {
                       Container(
                       width: 240.0,
                       height:80.0,
-                      child: RaisedButton(
+                      child: MaterialButton(
                         onPressed: (){},
                         //color: Colors.yellow,
                         color: Color(webColor('#FF0011')),

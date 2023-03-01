@@ -57,9 +57,9 @@ class _ChatPageState extends State<ChatPage> {
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _currentIndex,
           items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home", style: TextStyle(color: Colors.grey),)),
-            BottomNavigationBarItem(icon: Icon(Icons.mail_outline), title: Text("P.T.A", style: TextStyle(color: Colors.grey))),
-            BottomNavigationBarItem(icon: Icon(Icons.settings), title: Text("Settings", style: TextStyle(color: Colors.grey))),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+            BottomNavigationBarItem(icon: Icon(Icons.mail_outline), label: 'Messsages'),
+            BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
           ],
           onTap: (int index) {
             setState(() {

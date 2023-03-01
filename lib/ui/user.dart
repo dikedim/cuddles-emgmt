@@ -44,7 +44,7 @@ class _SelectUserState extends State<SelectUser> {
                             width: 186.0,
                             height:250.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
                                     builder: (BuildContext context) => new StudentDashboard())
@@ -69,7 +69,7 @@ class _SelectUserState extends State<SelectUser> {
                             width: 186.0,
                             height:250.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
                                     builder: (BuildContext context) => new EducatorDashboard())
@@ -101,7 +101,7 @@ class _SelectUserState extends State<SelectUser> {
                           width: 186.0,
                           height:250.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
                                   builder: (BuildContext context) => new ParentDashboard())
@@ -126,7 +126,7 @@ class _SelectUserState extends State<SelectUser> {
                           width: 186.0,
                           height:250.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
                                   builder: (BuildContext context) => new AdminDashboard())

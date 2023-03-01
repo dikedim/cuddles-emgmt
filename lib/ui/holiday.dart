@@ -71,7 +71,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
     super.dispose();
   }
 
-  void _onDaySelected(DateTime day, List events) {
+  void _onDaySelected(DateTime selectedDay, List events) {
     print('CALLBACK: _onDaySelected');
     setState(() {
       _selectedEvents = events;
@@ -266,7 +266,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            RaisedButton(
+            MaterialButton(
               child: Text('Month'),
               onPressed: () {
                 setState(() {
@@ -274,7 +274,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
                 });
               },
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text('2 weeks'),
               onPressed: () {
                 setState(() {
@@ -282,7 +282,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
                 });
               },
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text('Week'),
               onPressed: () {
                 setState(() {
@@ -293,7 +293,7 @@ class _HolidaysPageState extends State<HolidaysPage> with TickerProviderStateMix
           ],
         ),
         const SizedBox(height: 8.0),
-        RaisedButton(
+        MaterialButton(
           child: Text('Set day ${dateTime.day}-${dateTime.month}-${dateTime.year}'),
           onPressed: () {
             _calendarController.setSelectedDay(

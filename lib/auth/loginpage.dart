@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
             Container(
               width: 220.0,
               height: 60.0,
-              child: RaisedButton(
+              child: MaterialButton(
                 child:Text('Login',
                 style: TextStyle(
                   color: Colors.white70,
@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
               Container(
                 width: 50.0,
                 height: 60.0,
-                child: RaisedButton(
+                child: MaterialButton(
                   color: Colors.amber,
                   child: Container(
                     height: 50.0,
@@ -97,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
       ),
     );
-    final forgotPasswd = FlatButton(
+    final forgotPasswd = MaterialButton(
       onPressed: null,
       child: Text('Forgot Password?',
       style: TextStyle(color: Colors.grey,

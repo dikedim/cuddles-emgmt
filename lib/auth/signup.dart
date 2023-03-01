@@ -59,7 +59,7 @@ class _SignupPageState extends State<SignupPage> {
         child: Container(
               width: 220.0,
               height: 60.0,
-              child: RaisedButton(
+              child: MaterialButton(
                 child:Text('Sign Up',
                 style: TextStyle(
                   color: Colors.white70,

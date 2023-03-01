@@ -76,7 +76,7 @@ class Homescreen extends StatelessWidget {
                               width: 390.0,
                               height:85.0,
                               child: Builder(
-                                builder: (context) => RaisedButton(
+                                builder: (context) => MaterialButton(
                                   elevation:5.0,
                                   onPressed: (){
                                     Navigator.push(context, MaterialPageRoute(
@@ -108,7 +108,7 @@ class Homescreen extends StatelessWidget {
                           width: 186.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
@@ -132,7 +132,7 @@ class Homescreen extends StatelessWidget {
                           width: 186.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
@@ -164,7 +164,7 @@ class Homescreen extends StatelessWidget {
                             width: 250.0,
                             height:80.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 elevation:5.0,
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
@@ -190,7 +190,7 @@ class Homescreen extends StatelessWidget {
                             width: 122.0,
                             height:80.0,
                             child: Builder(
-                              builder: (context) => RaisedButton(
+                              builder: (context) => MaterialButton(
                                 elevation:5.0,
                                 onPressed: (){
                                   //Navigator.of(context).pop();
@@ -223,7 +223,7 @@ class Homescreen extends StatelessWidget {
                           width: 90.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){},
                             //color: Colors.yellow,
@@ -248,7 +248,7 @@ class Homescreen extends StatelessWidget {
                           width: 90.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){},
                             //color: Colors.yellow,
@@ -273,7 +273,7 @@ class Homescreen extends StatelessWidget {
                           width: 90.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){},
                             //color: Colors.yellow,
@@ -297,7 +297,7 @@ class Homescreen extends StatelessWidget {
                           width: 90.0,
                           height:80.0,
                           child: Builder(
-                            builder: (context) => RaisedButton(
+                            builder: (context) => MaterialButton(
                               elevation:5.0,
                               onPressed: (){
                                 Navigator.push(context, 
@@ -331,7 +331,7 @@ class Homescreen extends StatelessWidget {
                         width: 115.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){
                               Navigator.push(context, MaterialPageRoute(
@@ -360,7 +360,7 @@ class Homescreen extends StatelessWidget {
                         width: 142.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){
                               Navigator.push(context, MaterialPageRoute(
@@ -390,7 +390,7 @@ class Homescreen extends StatelessWidget {
                         width: 110.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){},
                             //color: Colors.yellow,
@@ -421,7 +421,7 @@ class Homescreen extends StatelessWidget {
                         width: 105.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){
                               Navigator.push(context, MaterialPageRoute(
@@ -452,7 +452,7 @@ class Homescreen extends StatelessWidget {
                         width: 240.0,
                         height:80.0,
                         child: Builder(
-                          builder: (context) => RaisedButton(
+                          builder: (context) => MaterialButton(
                             elevation:5.0,
                             onPressed: (){},
                             //color: Colors.yellow,
